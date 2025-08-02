@@ -21,8 +21,8 @@ PSW = os.getenv("PSW")
 #if not MFP or not PSW:
     #print("Attenzione: Le variabili d'ambiente MFP e PSW devono essere impostate.")
     # Default a stringa vuota se non impostata, o potresti voler uscire dallo script
-    MFP = ""
-    PSW = ""
+MFP = ""
+PSW = ""
 
 base_url = "https://calcionew.newkso.ru/calcio/"
 logo_url = "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png"
