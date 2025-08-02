@@ -19,8 +19,8 @@ PSW = os.getenv("PSW")
 # MFPRender = os.getenv("MFPRender") # Load if needed in the future
 # PSWRender = os.getenv("PSWRender") # Load if needed in the future
 
-if not MFP or not PSW:
-    raise ValueError("MFP and PSW environment variables must be set.")
+#if not MFP or not PSW:
+    #raise ValueError("MFP and PSW environment variables must be set.")
 
 SCRIPT_HEADERS = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", # O qualsiasi UA tu stia usando
