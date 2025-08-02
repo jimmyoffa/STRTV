@@ -79,7 +79,8 @@ def decode_base64_keys(encoded_string):
 def generate_proxy_url(mpd_link, key1, key2):
     """Genera l'URL proxy con i parametri richiesti"""
     # Construct the base part of the proxy URL using the selected MFP/PSW
-    proxy_base_with_auth = f"{MFP_TO_USE_FOR_MPD}/proxy/mpd/manifest.m3u8?api_password={PSW_TO_USE_FOR_MPD}"
+    # proxy_base_with_auth = f"{MFP_TO_USE_FOR_MPD}/proxy/mpd/manifest.m3u8?api_password={PSW_TO_USE_FOR_MPD}"
+    proxy_base_with_auth = f"{MFP_TO_USE_FOR_MPD}{PSW_TO_USE_FOR_MPD}"
     # Rimuovi il parametro ck= dall'URL MPD prima di codificarlo
     mpd_base = mpd_link.split('?ck=')[0] if '?ck=' in mpd_link else mpd_link
 
