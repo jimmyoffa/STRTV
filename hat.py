@@ -88,7 +88,8 @@ def generate_proxy_url(mpd_link, key1, key2):
     encoded_link = urllib.parse.quote(mpd_base)
 
     # Costruisci l'URL proxy completo
-    proxy_url = f"{proxy_base_with_auth}&d={encoded_link}&key_id={key1}&key={key2}"
+    # proxy_url = f"{proxy_base_with_auth}&d={encoded_link}&key_id={key1}&key={key2}"
+    proxy_url = f"{proxy_base_with_auth}{encoded_link}&key_id={key1}&key={key2}"
     return proxy_url
 
 def process_mpd_url(mpd_url):
