@@ -292,7 +292,6 @@ https://g003-lin-it-cmaf-prd-xa.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S
 #EXTINF:-1 tvg-id="Boomerang.it" tvg-chno="609" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boomerang-it.png" group-title="Sky",Boomerang 
 https://g003-lin-it-cmaf-prd-xa.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S1/Live/channel(boomerang)/master_2hr-aac.mpd&key_id=1115cc41a0daf57a22c1c81bd139b559&key=31347f9bbc90713e972249b54ec882b2
 
-
 #EXTINF:-1 tvg-id="skycinemauno.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sky_Cinema_Uno_-_Logo_2021.svg/2560px-Sky_Cinema_Uno_-_Logo_2021.svg.png" group-title="MPDhd",Sky Cinema Uno (MPDhd)
 https://g006-lin-it-cmaf-prd-xa.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skycinemauno)/master_2hr-all.mpd&key_id=11183626c204cba5932dcddd19fa1353&key=783bebbc1ae8464f736ba8f21ff3c7d1
 
@@ -421,4 +420,3 @@ https://g006-lin-it-cmaf-prd-xa.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H
 
 #EXTINF:-1 tvg-id="skysport259.it" tvg-logo="https://i.imgur.com/2kMwtFK.png" group-title="MPDhd",Sky Sport 259 (MPDhd)
 https://g006-lin-it-cmaf-prd-xa.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysport259)/master_2hr-all.mpd&key_id=1118b48f56f299784a495d1c8ffe75d6&key=d7ee1d1d1d75ce18e379a2751d89bc1f
-
