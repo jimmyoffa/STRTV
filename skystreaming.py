@@ -21,8 +21,8 @@ PSW = os.getenv("PSW")
 # MFPRender = os.getenv("MFPRender") # Load if needed in the future
 # PSWRender = os.getenv("PSWRender") # Load if needed in the future
 
-if not MFP or not PSW:
-    raise ValueError("MFP and PSW environment variables must be set.")
+#if not MFP or not PSW:
+    #raise ValueError("MFP and PSW environment variables must be set.")
 
 # --- INIZIO MODIFICHE RICHIESTE ---
 
