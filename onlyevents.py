@@ -363,7 +363,7 @@ def addChannelsByLeagueSport():
                                 file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{LOGO}" group-title="{clean_sport_key}", {channel["channel_name"]}\n')
                                 # New stream URL format
                                 #file.write(f"{PROXY}{MFP}/extractor/video?host=DLHD&redirect_stream=true&api_password={PSW}&d={stream_url_dynamic}\n\n")
-                                file.write(f"{PROXY}{MFP}{PSW}{stream_url_dynamic}\n\n")
+                                file.write(f"{stream_url_dynamic}\n\n")
 
 
                             processed_schedule_channels += 1
