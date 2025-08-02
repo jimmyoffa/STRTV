@@ -19,9 +19,9 @@ PSW2 = os.getenv("PSW2")
 # MFPRender = os.getenv("MFPRender") # Load if needed in the future
 # PSWRender = os.getenv("PSWRender") # Load if needed in the future
 
-if not MFP or not PSW:
-    print("Errore: Le variabili d'ambiente MFP e PSW devono essere impostate.")
-    sys.exit(1)
+#if not MFP or not PSW:
+    #print("Errore: Le variabili d'ambiente MFP e PSW devono essere impostate.")
+    #sys.exit(1)
 
 MFP_TO_USE_FOR_MPD = MFP
 PSW_TO_USE_FOR_MPD = PSW
