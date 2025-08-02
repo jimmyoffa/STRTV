@@ -11,7 +11,7 @@ MFP = os.getenv("MFP")
 PSW = os.getenv("PSW")
 # MFPRender = os.getenv("MFPRender") # Load if needed in the future
 # PSWRender = os.getenv("PSWRender") # Load if needed in the future
-# PZPROXY = os.getenv("PZPROXY", "") # Kept as a general optional prefix
+PZPROXY = os.getenv("PZPROXY", "") # Kept as a general optional prefix
 
 #if not MFP or not PSW:
     #raise ValueError("MFP and PSW environment variables must be set.")
