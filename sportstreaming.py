@@ -45,7 +45,7 @@ headers = {
     "Referer": "https://www.sportstreaming.net/"
 }
 
-PROXY_STREAM_PREFIX = os.getenv("PROXYMFP")
+#PROXY_STREAM_PREFIX = os.getenv("PROXYMFP")
 
 # 4. Implementazione completa formattazione date
 def format_event_date(date_text):
@@ -197,7 +197,7 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
             encoded_ua = quote_plus(headers["User-Agent"])
             encoded_referer = quote_plus(headers["Referer"])
             encoded_origin = quote_plus(headers["Origin"])
-            #final_stream_url = f"{PROXY_STREAM_PREFIX}{stream_url}&h_user-agent={encoded_ua}&h_referer={encoded_referer}&h_origin={encoded_origin}"
+            ##final_stream_url = f"{PROXY_STREAM_PREFIX}{stream_url}&h_user-agent={encoded_ua}&h_referer={encoded_referer}&h_origin={encoded_origin}"##
             final_stream_url = f"{stream_url}&h_user-agent={encoded_ua}&h_referer={encoded_referer}&h_origin={encoded_origin}"
 
             # Scrittura entry M3U
