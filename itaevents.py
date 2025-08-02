@@ -718,7 +718,8 @@ def process_events():
                                     file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{event_logo}" group-title="{italian_sport_key}", {channel_name_str}\n')
                                     # New stream URL format
                                     #file.write(f"{PROXY}{MFP}/extractor/video?host=DLHD&redirect_stream=true&api_password={PSW}&d={stream_url_dynamic}\n\n")
-                                    file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
+                                    #file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
+                                    file.write(f"{PZPROXY}{stream_url_dynamic}\n\n")
                                 included_channels_count += 1
 
                             else:
