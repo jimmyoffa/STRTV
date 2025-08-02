@@ -165,7 +165,8 @@ def generate_proxy_url(stream_url, key1, key2, stream_type):
         return None
 
     encoded_link = urllib.parse.quote(url_to_encode, safe=':/')
-    proxy_url_parts = [f"{endpoint_base}?api_password={PSW_TO_USE_FOR_MPD}&d={encoded_link}"]
+    #proxy_url_parts = [f"{endpoint_base}?api_password={PSW_TO_USE_FOR_MPD}&d={encoded_link}"]
+    proxy_url_parts = [f"{encoded_link}"]
 
     # Aggiungi key_id e key solo se sono validi e se è un MPD
     if stream_type == 'mpd' and key1 and key2:
