@@ -197,7 +197,8 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
             encoded_ua = quote_plus(headers["User-Agent"])
             encoded_referer = quote_plus(headers["Referer"])
             encoded_origin = quote_plus(headers["Origin"])
-            final_stream_url = f"{PROXY_STREAM_PREFIX}{stream_url}&h_user-agent={encoded_ua}&h_referer={encoded_referer}&h_origin={encoded_origin}"
+            #final_stream_url = f"{PROXY_STREAM_PREFIX}{stream_url}&h_user-agent={encoded_ua}&h_referer={encoded_referer}&h_origin={encoded_origin}"
+            final_stream_url = f"{stream_url}&h_user-agent={encoded_ua}&h_referer={encoded_referer}&h_origin={encoded_origin}"
 
             # Scrittura entry M3U
             f.write(f'#EXTINF:-1 group-title="SportStreaming" tvg-logo="{image_url}" tvg-id="{tvg_id}" tvg-name="{display_name}",{display_name} | {formatted_date}\n')
