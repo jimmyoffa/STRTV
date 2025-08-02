@@ -13,8 +13,8 @@ PSW = os.getenv("PSW")
 # PSWRender = os.getenv("PSWRender") # Load if needed in the future
 PZPROXY = os.getenv("PZPROXY", "") # Kept as a general optional prefix
 
-if not MFP or not PSW:
-    raise ValueError("MFP and PSW environment variables must be set.")
+#if not MFP or not PSW:
+    #raise ValueError("MFP and PSW environment variables must be set.")
 
 # Costanti
 M3U8_OUTPUT_FILE = "247ita.m3u8"
