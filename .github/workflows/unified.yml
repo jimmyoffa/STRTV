@@ -2,7 +2,8 @@ name: Unified Workflow - All Scripts Sequential
 
 on:
   schedule:
-- cron: '0 */2 * * *'  # Esegui ogni 2 ore  workflow_dispatch:
+    - cron: '0 */2 * * *'  # Esegui ogni 2 ore  workflow_dispatch:
+  workflow_dispatch:  # Consente l'esecuzione manuale
 
 permissions:
   contents: write
