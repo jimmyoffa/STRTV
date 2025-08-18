@@ -14,8 +14,8 @@ PZPROXY = os.getenv("PZPROXY")
 # PSWRender = os.getenv("PSWRender") # Load if needed in the future
 PROXY = os.getenv("PROXY", "") # Kept as a general optional prefix
 
-if not MFP or not PSW:
-    raise ValueError("MFP and PSW environment variables must be set.")
+#if not MFP or not PSW:
+    #raise ValueError("MFP and PSW environment variables must be set.")
 
 # Costanti
 M3U8_OUTPUT_FILE = "247ita.m3u8"
@@ -256,7 +256,8 @@ def generate_m3u8_247(matches):
                 # New stream URL format
                 #file.write(f"{PROXY}{MFP}/extractor/video?host=DLHD&redirect_stream=true&api_password={PSW}&d={stream_url_dynamic}\n\n")
                 #file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
-                file.write(f"{MFP}/proxy/hls/manifest.m3u8?api_password={PSW}&d={stream_url_dynamic}\n\n")
+                #file.write(f"{MFP}/proxy/hls/manifest.m3u8?api_password={PSW}&d={stream_url_dynamic}\n\n")
+                file.write(f"{stream_url_dynamic}\n\n")
                 processed_247_channels += 1
             else:
                 print(f"Failed to get stream URL for 24/7 channel ID: {channel_id}. Skipping M3U8 entry for this channel.")
