@@ -279,7 +279,7 @@ def add_dazn1_channel():
             # New stream URL format
             #file.write(f"{PROXY}{MFP}/extractor/video?host=DLHD&redirect_stream=true&api_password={PSW}&d={stream_url_dynamic}\n\n")
             #file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
-            file.write(f"{MFP}/proxy/hls/manifest.m3u8?api_password={PSW}&d={stream_url_dynamic}\n\n")
+            file.write(f"{stream_url_dynamic}\n\n")
             return 1
     else:
         print(f"Failed to get stream URL for DAZN 1 channel ID: {channel_id}")
