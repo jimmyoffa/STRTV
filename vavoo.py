@@ -380,7 +380,8 @@ def save_m3u8(channels):
             #proxy_mfp_value = f"{PZPROXY}/proxy/m3u?url="
             f.write(f'#EXTINF:-1 tvg-id="{tvg_id_modified}.it" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
             #f.write(f"{proxy_mfp_value}{url}{HEADER}\n\n")
-            f.write(f"{url}{HEADER}\n\n")
+            #f.write(f"{url}{HEADER}\n\n")
+            f.write(f"{url}\n\n")
 
 def main():
     channels = fetch_channels()
