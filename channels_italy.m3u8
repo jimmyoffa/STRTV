@@ -1,5 +1,8 @@
 #EXTM3U url-tvg="https://github.com/jimmyoffa/STRTV/raw/branch/main/epg.xml"
 
+#EXTINF:-1 tvg-id="20mediasethd.it" tvg-name="20 Mediaset" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="Intrattenimento;Mediaset",20 MEDIASET (V)
+https://vavoo.to/vavoo-iptv/play/12303381856673f2a33deb
+
 #EXTINF:-1 tvg-id="27twentyseven.it" tvg-name="27 Twenty Seven" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/260px-Twentyseven_logo.svg.png" group-title="Mediaset",27 TWENTY SEVEN (V)
 https://vavoo.to/vavoo-iptv/play/6087746837741766a74b3
 
@@ -144,9 +147,6 @@ https://vavoo.to/vavoo-iptv/play/42489970292d2930202d0e
 #EXTINF:-1 tvg-id="history.it" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari;Sky",HISTORY (V)
 https://vavoo.to/vavoo-iptv/play/3178376547e2dcc234152
 
-#EXTINF:-1 tvg-id="history.it" tvg-name="History (2)" tvg-logo="" group-title="Documentari;Sky",HISTORY (V) (2)
-https://vavoo.to/vavoo-iptv/play/2134724757fd92e3286ea6
-
 #EXTINF:-1 tvg-id="iris.it" tvg-name="Iris" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",IRIS (V)
 https://vavoo.to/vavoo-iptv/play/576490047036ac0227958
 
@@ -186,8 +186,11 @@ https://vavoo.to/vavoo-iptv/play/313448120145a6443975e1
 #EXTINF:-1 tvg-id="mediasetextra.it" tvg-name="Mediaset Extra" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" group-title="Intrattenimento;Mediaset",MEDIASET EXTRA (V)
 https://vavoo.to/vavoo-iptv/play/4774665319f73c392df0e
 
-#EXTINF:-1 tvg-id="mediasetinfinity+5.it" tvg-name="Mediaset Infinity+ 5" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Intrattenimento;Mediaset",MEDIASET INFINITY+ 5 (V)
-https://vavoo.to/vavoo-iptv/play/588488827b855babc9df4
+#EXTINF:-1 tvg-id="mediasetinfinity+1.it" tvg-name="Mediaset Infinity+ 1" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Intrattenimento;Mediaset",MEDIASET INFINITY+ 1 (V)
+https://vavoo.to/vavoo-iptv/play/3599959739ed5ed2f1f0cd
+
+#EXTINF:-1 tvg-id="mediasetinfinity+2.it" tvg-name="Mediaset Infinity+ 2" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Intrattenimento;Mediaset",MEDIASET INFINITY+ 2 (V)
+https://vavoo.to/vavoo-iptv/play/2436070507988d651c6548
 
 #EXTINF:-1 tvg-id="iris.it" tvg-name="Mediaset Iris" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Intrattenimento;Mediaset",MEDIASET IRIS (V)
 https://vavoo.to/vavoo-iptv/play/23919988fc371eea2329
@@ -331,6 +334,9 @@ https://vavoo.to/vavoo-iptv/play/157497519660249c278f94
 https://vavoo.to/vavoo-iptv/play/2251241999722578d55332
 
 #EXTINF:-1 tvg-id="rete4.it" tvg-name="Rete 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png" group-title="Mediaset",RETE 4 (V)
+https://vavoo.to/vavoo-iptv/play/4198218214cee07ebbc292
+
+#EXTINF:-1 tvg-id="rete4.it" tvg-name="Rete 4 (2)" tvg-logo="" group-title="Mediaset",RETE 4 (V) (2)
 https://vavoo.to/vavoo-iptv/play/22357320045f329c720096
 
 #EXTINF:-1 tvg-id="la1.it" tvg-name="Rsi La 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1200px-RSI_La_1_2012.svg.png" group-title="Altro",RSI LA 1 (V)
@@ -383,9 +389,6 @@ https://vavoo.to/vavoo-iptv/play/1228534500ffff855fff55
 
 #EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="Sky Cinema Due (2)" tvg-logo="" group-title="Film;Sky",SKY CINEMA DUE (V) (2)
 https://vavoo.to/vavoo-iptv/play/2330574729acc52d969174
-
-#EXTINF:-1 tvg-id="skycinemadue+24.it" tvg-name="Sky Cinema Due +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Film;Sky",SKY CINEMA DUE +24 (V)
-https://vavoo.to/vavoo-iptv/play/1078650168cbe5484d34ad
 
 #EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="Sky Cinema Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film;Sky",SKY CINEMA FAMILY (V)
 https://vavoo.to/vavoo-iptv/play/41579514488d1c92affa7
@@ -440,9 +443,6 @@ https://vavoo.to/vavoo-iptv/play/18766170987dd5e4939c9
 
 #EXTINF:-1 tvg-id="skyprimafila15.it" tvg-name="Sky Primafila 15" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 15 (V)
 https://vavoo.to/vavoo-iptv/play/911168573d54b185731b5
-
-#EXTINF:-1 tvg-id="skyprimafila16.it" tvg-name="Sky Primafila 16" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 16 (V)
-https://vavoo.to/vavoo-iptv/play/191150052585174f4ea582
 
 #EXTINF:-1 tvg-id="skyprimafila17.it" tvg-name="Sky Primafila 17" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 17 (V)
 https://vavoo.to/vavoo-iptv/play/1284441949890c3c5c3d9d
@@ -552,6 +552,9 @@ https://vavoo.to/vavoo-iptv/play/271195962000118dca31ce
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-name="Sky Sport Nba (2)" tvg-logo="" group-title="Sport",SKY SPORT NBA (V) (2)
 https://vavoo.to/vavoo-iptv/play/3268253262aec282eb346
 
+#EXTINF:-1 tvg-id="skysportseriea.it" tvg-name="Sky Sport Serie A" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sport",SKY SPORT SERIE A (V)
+https://vavoo.to/vavoo-iptv/play/2077387085cfe0f64122dc
+
 #EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SPORT TENNIS (V)
 https://vavoo.to/vavoo-iptv/play/210077178262e76f204fa6
 
@@ -563,9 +566,6 @@ https://vavoo.to/vavoo-iptv/play/210669162201ec2365574
 
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno (2)" tvg-logo="" group-title="Sport",SKY SPORT UNO (V) (2)
 https://vavoo.to/vavoo-iptv/play/3192996672d2c923be0346
-
-#EXTINF:-1 tvg-id="skysportf1.it" tvg-name="Sky Sports F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sport",SKY SPORTS F1 (V)
-https://vavoo.to/vavoo-iptv/play/22890389722acc4573933d
 
 #EXTINF:-1 tvg-id="supertennis.it" tvg-name="Sky Super Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SUPER TENNIS (V)
 https://vavoo.to/vavoo-iptv/play/55828211836e421b20575
